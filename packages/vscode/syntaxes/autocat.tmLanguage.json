@@ -2,9 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "AutoCat",
 	"scopeName": "source.meow",
-	"fileTypes": [
-		"meow"
-	],
 	"patterns": [
 		{
 			"include": "#autocat.statements"
