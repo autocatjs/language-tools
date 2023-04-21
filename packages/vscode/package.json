@@ -5,16 +5,17 @@
   "description": "Language support for AutoCatJS with meow as extension.",
   "version": "0.0.1",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/autocatjs/language-tools.git",
-		"directory": "packages/vscode"
-	},
+    "type": "git",
+    "url": "https://github.com/autocatjs/language-tools.git",
+    "directory": "packages/vscode"
+  },
   "engines": {
     "vscode": "^1.67.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "author": "bariartz",
   "publisher": "AutoCat",
   "icon": "images/icon.png",
   "contributes": {
