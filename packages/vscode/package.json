@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "autocat",
+  "displayName": "AutoCat Language Features",
+  "description": "Language support for AutoCatJS with meow as extension.",
+  "version": "0.0.1",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/autocatjs/language-tools.git",
+		"directory": "packages/vscode"
+	},
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "publisher": "AutoCat",
+  "icon": "images/icon.png",
+  "contributes": {
+    "languages": [{
+      "id": "autocat",
+      "aliases": ["AutoCat", "autocat"],
+      "extensions": [".meow"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "autocat",
+      "scopeName": "source.meow",
+      "path": "./syntaxes/autocat.tmLanguage.json"
+    }]
+  }
+}
