@@ -15,12 +15,11 @@ AutoCat Language Features is a language support extension built for AutoCatJS ex
 
 ## Known Issues
 
-If you got issues, please report in url below:
-[[URL]](https://github.com/autocatjs/language-tools/issues)
+If you got issues, please report in [THIS](https://github.com/autocatjs/language-tools/issues)
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial release of beta version
 
